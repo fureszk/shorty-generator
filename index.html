@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <script src="app.js"></script>
+  </head>
+  <body class="text-center antialiased py-24">
+    <div x-data="more()">
+      <h1 class="text-5xl mb-12" x-html="caption">Mivan more?</h1>
+      <a href="#" class="border rounded-md py-3 px-5 bg-indigo-500 text-white text-lg" @click.prevent="say">Mondj valami újat!</a>  
+    </div>
+  </body>
+</html>
